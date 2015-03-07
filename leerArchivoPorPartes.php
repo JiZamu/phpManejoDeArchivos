@@ -21,4 +21,6 @@
 		$caracter = fgetc($manejador);
 		print($caracter.endl);
 	}
+
+	fclose($manejador);
 ?>

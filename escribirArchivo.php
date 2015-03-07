@@ -12,7 +12,7 @@
 		print("No se escribio con exito".endl);
 	}
 
-	//escribe solo la longitud establecido en este caso 10
+	//escribe solo la longitud establecido en este caso
 	$cadena2 = "con cadena recortada";
 	if( @fwrite($manejador, $cadena, 10)){
 		print("Se escribio con exito".endl);
@@ -20,4 +20,6 @@
 	else{
 		print("No se escribio con exito".endl);
 	}
+
+	fclose($manejador);
 ?>
